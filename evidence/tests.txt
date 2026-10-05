@@ -1,0 +1,30 @@
+test_arithmetic (test_broker.BrokerTests.test_arithmetic) ... ok
+test_audit_contains_no_arguments_or_document_contents (test_broker.BrokerTests.test_audit_contains_no_arguments_or_document_contents) ... ok
+test_demo_is_reproducible_and_labels_fixture_calls (test_broker.BrokerTests.test_demo_is_reproducible_and_labels_fixture_calls) ... ok
+test_division_by_zero_and_tiny_divisor (test_broker.BrokerTests.test_division_by_zero_and_tiny_divisor) ... ok
+test_document_permissions_and_no_inventory_disclosure (test_broker.BrokerTests.test_document_permissions_and_no_inventory_disclosure) ... ok
+test_duplicate_keys_including_escaped_and_nested (test_broker.BrokerTests.test_duplicate_keys_including_escaped_and_nested) ... ok
+test_exact_schema (test_broker.BrokerTests.test_exact_schema) ... ok
+test_invalid_json_and_encoding (test_broker.BrokerTests.test_invalid_json_and_encoding) ... ok
+test_invalid_trusted_configuration (test_broker.BrokerTests.test_invalid_trusted_configuration) ... ok
+test_no_arbitrary_operations (test_broker.BrokerTests.test_no_arbitrary_operations) ... ok
+test_nonfinite_json (test_broker.BrokerTests.test_nonfinite_json) ... ok
+test_numeric_edges (test_broker.BrokerTests.test_numeric_edges) ... ok
+test_paths_and_disguised_ids_never_open_files (test_broker.BrokerTests.test_paths_and_disguised_ids_never_open_files) ... ok
+test_request_byte_limits (test_broker.BrokerTests.test_request_byte_limits) ... ok
+test_trusted_policy_is_copied_and_immutable (test_broker.BrokerTests.test_trusted_policy_is_copied_and_immutable) ... ok
+test_unknown_tools_are_not_echoed (test_broker.BrokerTests.test_unknown_tools_are_not_echoed) ... ok
+test_call_allowed_and_denied (test_cli.CliTests.test_call_allowed_and_denied) ... ok
+test_demo (test_cli.CliTests.test_demo) ... ok
+test_stdin_limit (test_cli.CliTests.test_stdin_limit) ... ok
+test_generated_legitimate_read_allowed (test_observe.ObservationTests.test_generated_legitimate_read_allowed) ... ok
+test_generated_restricted_read_denied (test_observe.ObservationTests.test_generated_restricted_read_denied) ... ok
+test_http_errors_and_redirects_are_not_followed (test_observe.ObservationTests.test_http_errors_and_redirects_are_not_followed) ... ok
+test_invalid_envelopes_fail_before_broker (test_observe.ObservationTests.test_invalid_envelopes_fail_before_broker) ... ok
+test_invalid_scenario_never_connects (test_observe.ObservationTests.test_invalid_scenario_never_connects) ... ok
+test_transport_failure_stops_without_retry (test_observe.ObservationTests.test_transport_failure_stops_without_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.708s
+
+OK

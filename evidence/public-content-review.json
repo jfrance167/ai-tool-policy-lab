@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files_checked": 29,
+  "flagged_file_count": 0,
+  "history_pattern_count": 0,
+  "scope": "tracked content and local commit messages; bounded credential/private-path patterns plus source review",
+  "limitation": "No dedicated secret scanner installed; pattern absence does not prove absence of secrets."
+}
